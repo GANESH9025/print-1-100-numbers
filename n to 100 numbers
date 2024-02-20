@@ -1,4 +1,11 @@
-i=int(input("enter a number"))
-for i in range(i,100): # or for i in range(1,100) this is 1 to 100 numbers print
-    print(i)
-  
+""" python calling function syntax
+def my_function():
+     variables
+my_function()
+"""
+
+i= int(input("Enter Number :"))
+def my_function(i):          #stroe the i value
+    for i in range(100):     # destination 100
+        print(i)             # i<100
+my_function(i)               #caling a function 
