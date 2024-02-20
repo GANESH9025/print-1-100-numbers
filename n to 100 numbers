@@ -3,9 +3,10 @@ def my_function():
      variables
 my_function()
 """
+n= int(input("Enter Number :")) #start num
+m=int(input("still number"))    #end num 
 
-i= int(input("Enter Number :"))
-def my_function(i):          #stroe the i value
-    for i in range(100):     # destination 100
-        print(i)             # i<100
-my_function(i)               #caling a function 
+def my_function(i):             #stroe the n value
+    for n in range(m):        
+        print(n)                # n<m
+my_function(n)                  #caling a function 
